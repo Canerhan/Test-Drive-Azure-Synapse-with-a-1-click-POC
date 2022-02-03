@@ -82,24 +82,7 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [
-					{
-						"name": "SynapseWorkspaceName"
-					},
-					{
-						"name": "SQLDedicatedPoolName",
-						"value": "public//fares-data.csv"
-					},
-					{
-						"name": "SQLLoginUsername"
-					},
-					{
-						"name": "KeyVaultName"
-					},
-					{
-						"name": "DatalakeAccountName"
-					}
-				],
+				"userProperties": [],
 				"typeProperties": {
 					"source": {
 						"type": "DelimitedTextSource",
