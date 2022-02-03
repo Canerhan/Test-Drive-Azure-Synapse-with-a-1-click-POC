@@ -82,7 +82,24 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": [],
+				"userProperties": [
+					{
+						"name": "SynapseWorkspaceName"
+					},
+					{
+						"name": "SQLDedicatedPoolName",
+						"value": "public//fares-data.csv"
+					},
+					{
+						"name": "SQLLoginUsername"
+					},
+					{
+						"name": "KeyVaultName"
+					},
+					{
+						"name": "DatalakeAccountName"
+					}
+				],
 				"typeProperties": {
 					"source": {
 						"type": "DelimitedTextSource",
@@ -465,23 +482,23 @@
 			},
 			"SynapseWorkspaceName": {
 				"type": "string",
-				"defaultValue": "<synapse-workspace-name>.database.windows.net"
+				"defaultValue": "chab5kwy77uoangypocws1"
 			},
 			"SQLDedicatedPoolName": {
 				"type": "string",
-				"defaultValue": "<sql-dedicated-pool-name>"
+				"defaultValue": "chab5kwy77uoangypocws1p1"
 			},
 			"SQLLoginUsername": {
 				"type": "string",
-				"defaultValue": "<sql-login-username>"
+				"defaultValue": "canerhan"
 			},
 			"KeyVaultName": {
 				"type": "string",
-				"defaultValue": "<keyvaukt-name>"
+				"defaultValue": "kvchab5kwy77uoangypoc"
 			},
 			"datalakeAccountName": {
 				"type": "string",
-				"defaultValue": "<datalake-account-name>"
+				"defaultValue": "chab5kwy77uoangypoc"
 			}
 		},
 		"folder": {
