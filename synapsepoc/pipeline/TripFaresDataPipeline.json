@@ -477,7 +477,7 @@
 			},
 			"KeyVaultName": {
 				"type": "string",
-				"defaultValue": "kvchazou7tppscsou4poc"
+				"defaultValue": "Caners-Key-Vault"
 			},
 			"datalakeAccountName": {
 				"type": "string",
