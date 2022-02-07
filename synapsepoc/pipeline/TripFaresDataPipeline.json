@@ -477,11 +477,11 @@
 			},
 			"KeyVaultName": {
 				"type": "string",
-				"defaultValue": "kvchab5kwy77uoangypoc"
+				"defaultValue": "kvchazou7tppscsou4poc"
 			},
 			"datalakeAccountName": {
 				"type": "string",
-				"defaultValue": "chab5kwy77uoangypoc"
+				"defaultValue": "chazou7tppscsou4poc"
 			}
 		},
 		"folder": {
